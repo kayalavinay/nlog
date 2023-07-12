@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JaSiq50Wm8ENhzAv9logh66sHT03ovAetMUCRZelLTQsMqzrPUDulPM1rIjyZKaxryUX/HuJzP1d3V/g8urmQw==",
+  "dgSpecHash": "bBZ/tRGGS4pSszNg1pk6M85WCtAJ69nJDzYvEASjy9cOYUOzDUDP9Xu24Ad15z5D8bB6BUpT0dkXAQ6ibsSgEw==",
   "success": true,
   "projectFilePath": "D:\\POC\\nlog\\NlogPOC\\NlogPOC\\NlogPOC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vinay\\.nuget\\packages\\nlog\\4.7.15\\nlog.4.7.15.nupkg.sha512",
+    "C:\\Users\\vinay\\.nuget\\packages\\nlog.config\\4.7.15\\nlog.config.4.7.15.nupkg.sha512",
+    "C:\\Users\\vinay\\.nuget\\packages\\nlog.schema\\4.7.15\\nlog.schema.4.7.15.nupkg.sha512"
+  ],
   "logs": []
 }

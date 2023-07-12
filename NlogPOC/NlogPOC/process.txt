@@ -1,0 +1,25 @@
+﻿--> Create a Console Application.
+--> Install "NLog.Config" from NuGet Packages. then it will add NLog.config file
+--> Add static variable in program.cs file
+        private static Logger logger = LogManager.GetCurrentClassLogger();
+--> Add an error message in main class
+        logger.Error("This is an error message");
+--> Add the below lines in Nlog.Config file
+            <targets>
+                <target name="console" xsi:type="Console" layout="${longdate}|${message}"/>
+            </targets>
+
+            <rules>
+                <logger name="*" minlevel="Error" writeTo="console" />
+            </rules>
+
+--> Run the program then we will get log messages in console
+-->If you want to store the log in Particular path then add the below target in targets in Nlog.Config file
+            <target name="file" xsi:type="File" fileName="D:\logs\NLog.log" layout="${longdate}|${message}"/>
+--> And add file in writeTo attribute in rules in Nlog.Config file
+--> Run the program then we will get log messages in console and file also
+--> If you want a send a mail the log message then we can add another targaet and rules.
+
+
+
+                                                                        -- Vinay Kayala.
